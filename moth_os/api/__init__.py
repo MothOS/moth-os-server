@@ -1,6 +1,6 @@
 import bottle
 import yaml
-from .routes import index, version
+from .routes import index, version, ping, monitor
 
 
 def init(config_file_path: str):
